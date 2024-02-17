@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import icon10 from "../../imgs/icon10.png";
+import icon50 from "../../imgs/icon50.png";
 import "./Sidebar.css";
 import { SidebarData } from "../../Data/Data";
 import { UilBars, UilSignOutAlt } from "@iconscout/react-unicons";
@@ -34,7 +34,7 @@ const Sidebar = () => {
       >
         {/* logo */}
         <div className="logo">
-          <img src={icon10} alt="" />
+          <img src={icon50} alt="" />
           <span>
             Sh<span>o</span>ps
           </span>
